@@ -42,7 +42,7 @@ for i in range(len(X)):
     deno+=(X[i]-X_mean)**2
 slope=num/deno
 print(slope)
-b=Y_mean - slope*X_mean
+b=Y_mean - slope*X_mean 
 print(b)
 Y_pred=slope*X+b
 print(Y_pred)
